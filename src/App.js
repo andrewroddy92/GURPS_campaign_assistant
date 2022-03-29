@@ -5,18 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Please place the number of dice you wish to roll and the number of sides of the dice.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>ie 4d6 means 4 dice with 6 sides</p>
+        <input id='diceInput' text='1d6'></input>
       </header>
     </div>
   );
